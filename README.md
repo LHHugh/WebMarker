@@ -16,10 +16,10 @@
 
 ## 安装
 
-1. 解压 `khaki-line-chrome-extension.zip`。
+1. 克隆本仓库，或点击 GitHub 的 **Code → Download ZIP** 并解压。
 2. 在 Chrome 地址栏打开 `chrome://extensions`。
 3. 打开右上角的“开发者模式”。
-4. 点击“加载已解压的扩展程序”，选择本文件夹 `khaki-line`。
+4. 点击“加载已解压的扩展程序”，选择仓库根目录 `soft-marker-chrome-extension`。
 5. 如果此前已经安装旧版，请在扩展卡片上点击“重新加载”，然后刷新已打开的网页一次。
 
 ## 使用
