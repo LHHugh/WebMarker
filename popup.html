@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>柔光荧光笔</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <main class="panel">
+      <header class="hero">
+        <div class="brand-mark" aria-hidden="true">
+          <span class="brand-text-line first"></span>
+          <span class="brand-highlight"></span>
+          <span class="brand-text-line second"></span>
+          <span class="brand-underline"></span>
+        </div>
+        <div class="brand-copy">
+          <h1>柔光荧光笔</h1>
+          <p>选中文字，留下轻柔而清晰的标记</p>
+        </div>
+        <span class="status-pill" id="status-pill">连接中</span>
+      </header>
+
+      <section class="guide-card" aria-label="使用方法">
+        <div class="selection-demo" aria-hidden="true">
+          <span></span><span class="selected"></span><span></span>
+          <i class="cursor"></i>
+        </div>
+        <div>
+          <strong>左键拖动选择文字</strong>
+          <p>松开鼠标后选择样式；右侧小标签可快速跳回标记。</p>
+        </div>
+      </section>
+
+      <div class="unavailable-note" id="unavailable-note" hidden>
+        此页面无法注入标记工具。Chrome 设置页、扩展商店和其他受保护页面不支持扩展标记。
+      </div>
+
+      <section class="style-card" id="style-card" aria-label="默认标记样式">
+        <div class="section-heading">
+          <span>默认样式</span>
+          <small>也可在选中文字后的工具条中更改</small>
+        </div>
+
+        <div class="mode-switch" id="mode-switch" role="group" aria-label="标记类型">
+          <button type="button" data-mode="background" aria-pressed="true">
+            <span class="highlight-icon" aria-hidden="true">A</span>背景色
+          </button>
+          <button type="button" data-mode="underline" aria-pressed="false">
+            <span class="underline-icon" aria-hidden="true">U</span>下划线
+          </button>
+        </div>
+
+        <div class="palette" id="palette" role="radiogroup" aria-label="选择颜色">
+          <button type="button" class="swatch" data-color="yellow" data-name="柔黄" role="radio" aria-label="柔黄"></button>
+          <button type="button" class="swatch" data-color="green" data-name="柔绿" role="radio" aria-label="柔绿"></button>
+          <button type="button" class="swatch" data-color="blue" data-name="柔蓝" role="radio" aria-label="柔蓝"></button>
+          <button type="button" class="swatch" data-color="pink" data-name="柔粉" role="radio" aria-label="柔粉"></button>
+          <button type="button" class="swatch" data-color="purple" data-name="柔紫" role="radio" aria-label="柔紫"></button>
+          <button type="button" class="swatch" data-color="orange" data-name="柔橙" role="radio" aria-label="柔橙"></button>
+        </div>
+        <div class="selected-color" id="selected-color">柔黄 · 低饱和</div>
+      </section>
+
+      <section class="page-actions" aria-label="当前页面标记">
+        <div class="page-count">
+          <span class="count-dot" aria-hidden="true"></span>
+          <div><strong id="page-count">0</strong><span>处页面标记</span></div>
+        </div>
+        <div class="action-buttons">
+          <button id="undo" class="secondary-button" type="button">撤销上一处</button>
+          <button id="clear" class="secondary-button danger" type="button">清空本页</button>
+        </div>
+      </section>
+
+      <footer>
+        <span class="privacy-dot" aria-hidden="true"></span>
+        标记仅保存在本机，不上传网页内容
+      </footer>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+::highlight(soft-marker-background-yellow) { background-color: rgba(241, 226, 161, 0.78); }
+::highlight(soft-marker-background-green) { background-color: rgba(198, 221, 193, 0.78); }
+::highlight(soft-marker-background-blue) { background-color: rgba(189, 214, 230, 0.78); }
+::highlight(soft-marker-background-pink) { background-color: rgba(231, 198, 207, 0.78); }
+::highlight(soft-marker-background-purple) { background-color: rgba(212, 199, 225, 0.78); }
+::highlight(soft-marker-background-orange) { background-color: rgba(232, 204, 179, 0.78); }
+
+::highlight(soft-marker-underline-yellow) {
+  text-decoration: underline 2px #b79b3f;
+  text-underline-offset: 0.2em;
+  text-decoration-skip-ink: none;
+}
+::highlight(soft-marker-underline-green) {
+  text-decoration: underline 2px #6f9b68;
+  text-underline-offset: 0.2em;
+  text-decoration-skip-ink: none;
+}
+::highlight(soft-marker-underline-blue) {
+  text-decoration: underline 2px #628fa9;
+  text-underline-offset: 0.2em;
+  text-decoration-skip-ink: none;
+}
+::highlight(soft-marker-underline-pink) {
+  text-decoration: underline 2px #ad7182;
+  text-underline-offset: 0.2em;
+  text-decoration-skip-ink: none;
+}
+::highlight(soft-marker-underline-purple) {
+  text-decoration: underline 2px #8872a3;
+  text-underline-offset: 0.2em;
+  text-decoration-skip-ink: none;
+}
+::highlight(soft-marker-underline-orange) {
+  text-decoration: underline 2px #af7f57;
+  text-underline-offset: 0.2em;
+  text-decoration-skip-ink: none;
+}
+
+::highlight(soft-marker-focus) {
+  background-color: rgba(132, 164, 181, 0.34);
+  text-decoration: underline 3px rgba(70, 108, 128, 0.88);
+  text-underline-offset: 0.22em;
+  text-decoration-skip-ink: none;
+}
