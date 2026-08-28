@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">WebMarker 柔光荧光笔</title>
+  <desc id="desc">选中文字，即刻标记。支持低饱和背景色、彩色下划线和右侧索引标签。</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8faf9"/>
+      <stop offset="1" stop-color="#e9f0ef"/>
+    </linearGradient>
+    <linearGradient id="logo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#edf3f2"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#526671" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="520" rx="30" fill="url(#background)"/>
+  <circle cx="1110" cy="64" r="135" fill="#bdd6e6" opacity="0.34"/>
+  <circle cx="1040" cy="472" r="120" fill="#e7c6cf" opacity="0.24"/>
+  <circle cx="78" cy="474" r="95" fill="#f1e2a1" opacity="0.26"/>
+
+  <g transform="translate(82 78)">
+    <g transform="translate(0 4)">
+      <rect width="92" height="92" rx="24" fill="url(#logo)" stroke="#dce5e3" stroke-width="3"/>
+      <path d="M20 28 H70" stroke="#5f6e76" stroke-width="6" stroke-linecap="round"/>
+      <rect x="15" y="38" width="65" height="20" rx="6" fill="#f1e2a1"/>
+      <path d="M21 48 H75" stroke="#4f6068" stroke-width="6" stroke-linecap="round"/>
+      <path d="M25 70 H70" stroke="#697980" stroke-width="6" stroke-linecap="round"/>
+      <path d="M22 79 C37 76 54 82 75 77" fill="none" stroke="#789db1" stroke-width="5" stroke-linecap="round"/>
+    </g>
+
+    <text x="120" y="48" fill="#34404a" font-size="50" font-weight="750" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif">WebMarker</text>
+    <text x="122" y="85" fill="#70808a" font-size="23" font-weight="600" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif">柔光荧光笔</text>
+
+    <text x="0" y="170" fill="#34404a" font-size="34" font-weight="720" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif">选中文字，即刻标记。</text>
+    <text x="0" y="212" fill="#71808a" font-size="20" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif">让每一页网页，都变成你的阅读手账。</text>
+
+    <g transform="translate(0 258)" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif" font-size="15" font-weight="650" fill="#52616a">
+      <rect width="126" height="38" rx="19" fill="#ffffff" stroke="#dce5e3"/>
+      <circle cx="21" cy="19" r="6" fill="#8db18c"/>
+      <text x="36" y="24">本地保存</text>
+      <g transform="translate(138 0)">
+        <rect width="142" height="38" rx="19" fill="#ffffff" stroke="#dce5e3"/>
+        <circle cx="21" cy="19" r="6" fill="#789db1"/>
+        <text x="36" y="24">Manifest V3</text>
+      </g>
+      <g transform="translate(292 0)">
+        <rect width="118" height="38" rx="19" fill="#ffffff" stroke="#dce5e3"/>
+        <circle cx="21" cy="19" r="6" fill="#d4c7e1"/>
+        <text x="36" y="24">无需账号</text>
+      </g>
+    </g>
+
+    <g transform="translate(0 330)">
+      <rect width="58" height="11" rx="5.5" fill="#f1e2a1"/>
+      <rect x="70" width="58" height="11" rx="5.5" fill="#c6ddc1"/>
+      <rect x="140" width="58" height="11" rx="5.5" fill="#bdd6e6"/>
+      <rect x="210" width="58" height="11" rx="5.5" fill="#e7c6cf"/>
+      <rect x="280" width="58" height="11" rx="5.5" fill="#d4c7e1"/>
+      <rect x="350" width="58" height="11" rx="5.5" fill="#e8ccb3"/>
+    </g>
+  </g>
+
+  <g transform="translate(670 65)" filter="url(#shadow)">
+    <rect width="450" height="390" rx="22" fill="#ffffff"/>
+    <rect width="450" height="54" rx="22" fill="#f6f8f8"/>
+    <rect y="32" width="450" height="22" fill="#f6f8f8"/>
+    <circle cx="25" cy="26" r="5" fill="#e7c6cf"/>
+    <circle cx="43" cy="26" r="5" fill="#f1e2a1"/>
+    <circle cx="61" cy="26" r="5" fill="#c6ddc1"/>
+    <rect x="88" y="15" width="316" height="23" rx="11.5" fill="#e8edec"/>
+
+    <g transform="translate(38 91)" fill="#6b7981">
+      <rect width="225" height="10" rx="5"/>
+      <rect y="30" width="342" height="10" rx="5" opacity="0.72"/>
+      <rect y="60" width="305" height="10" rx="5" opacity="0.72"/>
+      <rect x="40" y="83" width="256" height="30" rx="7" fill="#f1e2a1" opacity="0.95"/>
+      <rect x="49" y="93" width="238" height="10" rx="5" fill="#4f6068"/>
+      <rect y="126" width="326" height="10" rx="5" opacity="0.72"/>
+      <rect y="156" width="282" height="10" rx="5" opacity="0.72"/>
+      <rect y="186" width="338" height="10" rx="5" opacity="0.72"/>
+      <rect y="216" width="244" height="10" rx="5" opacity="0.72"/>
+    </g>
+
+    <g transform="translate(115 155)">
+      <rect width="232" height="70" rx="14" fill="#ffffff" stroke="#dfe6e5" stroke-width="1.5"/>
+      <rect x="14" y="12" width="72" height="25" rx="8" fill="#e7eef1"/>
+      <text x="29" y="30" fill="#40515b" font-size="13" font-weight="650" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif">背景色</text>
+      <rect x="95" y="12" width="72" height="25" rx="8" fill="#f5f7f7"/>
+      <text x="110" y="30" fill="#6f7b82" font-size="13" font-weight="650" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif">下划线</text>
+      <circle cx="22" cy="53" r="7" fill="#f1e2a1"/>
+      <circle cx="47" cy="53" r="7" fill="#c6ddc1"/>
+      <circle cx="72" cy="53" r="7" fill="#bdd6e6"/>
+      <circle cx="97" cy="53" r="7" fill="#e7c6cf"/>
+      <circle cx="122" cy="53" r="7" fill="#d4c7e1"/>
+      <circle cx="147" cy="53" r="7" fill="#e8ccb3"/>
+      <text x="178" y="58" fill="#8a6066" font-size="13" font-weight="650" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif">清除</text>
+    </g>
+
+    <g transform="translate(430 118)">
+      <rect width="12" height="42" rx="6" fill="#f1e2a1"/>
+      <rect y="79" width="12" height="54" rx="6" fill="#bdd6e6"/>
+      <rect y="183" width="12" height="38" rx="6" fill="#d4c7e1"/>
+    </g>
+
+    <g transform="translate(38 338)" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif">
+      <circle cx="7" cy="7" r="7" fill="#8db18c"/>
+      <text x="22" y="12" fill="#7b888f" font-size="14">标记仅保存在本机</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,28 @@
+name: Validate extension
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Validate manifest and referenced files
+        shell: bash
+        run: >-
+          node -e "const fs=require('fs');const m=JSON.parse(fs.readFileSync('manifest.json','utf8'));
+          if(m.manifest_version!==3)throw new Error('manifest_version must be 3');
+          if(!/^\\d+\\.\\d+\\.\\d+(?:-[0-9A-Za-z.-]+)?$/.test(m.version))throw new Error('invalid semantic version');
+          const files=['background.js','content.js','content.css','popup.html','popup.js','popup.css','icons/icon-16.png','icons/icon-32.png','icons/icon-48.png','icons/icon-128.png'];
+          for(const file of files)if(!fs.existsSync(file))throw new Error('missing '+file);
+          console.log('Validated WebMarker v'+m.version);"
+
+      - name: Check JavaScript syntax
+        run: node --check background.js && node --check content.js && node --check popup.js
